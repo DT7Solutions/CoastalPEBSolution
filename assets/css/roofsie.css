@@ -3895,7 +3895,7 @@ ul {
   position: relative;
   -webkit-transition: 500ms;
   transition: 500ms;
-  opacity: 0.3;
+  /* opacity: 0.3; */
 }
 
 .brand-one__single:hover .brand-one__img>img {
@@ -7297,7 +7297,7 @@ ul {
 }
 
 .services-three__title {
-  font-size: 24px;
+  font-size: 19px;
   font-weight: 800;
   line-height: 30px;
 }
@@ -10377,7 +10377,7 @@ ul {
 }
 
 .team-details__big-text {
-  font-size: 80px;
+  font-size: 38px;
   line-height: 80px;
   text-transform: uppercase;
   color: var(--roofsie-primary);
@@ -10392,7 +10392,7 @@ ul {
 .team-details__right {
   position: relative;
   display: block;
-  margin-left: 70px;
+  /* margin-left: 70px; */
 }
 
 .team-details__content {
@@ -10483,7 +10483,7 @@ ul {
 .team-details__btn-box {
   position: relative;
   display: block;
-  margin-top: 35px;
+  /* margin-top: 15px; */
 }
 
 /*--------------------------------------------------------------
