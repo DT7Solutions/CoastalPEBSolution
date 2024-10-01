@@ -10161,7 +10161,7 @@ ul {
 .service-details__benefits-points {
   position: relative;
   display: block;
-  padding-top: 61px;
+  padding-top: 21px;
 }
 
 .service-details__benefits-points li {
@@ -10183,6 +10183,7 @@ ul {
   width: 15px;
   background-color: var(--roofsie-base);
   border-radius: 50%;
+  margin-left: 1rem;
 }
 
 .service-details__benefits-points li .icon i {
@@ -10377,7 +10378,7 @@ ul {
 }
 
 .team-details__big-text {
-  font-size: 38px;
+  font-size: 28px;
   line-height: 80px;
   text-transform: uppercase;
   color: var(--roofsie-primary);
@@ -10386,9 +10387,20 @@ ul {
   position: absolute;
   transform: rotate(-90deg);
   top: 235px;
-  left: -325px;
+  left: -255px;
 }
-
+.left-image .team-details__big-text {
+  font-size: 22px;
+  line-height: 80px;
+  text-transform: uppercase;
+  color: var(--roofsie-primary);
+  letter-spacing: 0.35em;
+  font-weight: 500;
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 205px;
+  left: -250px;
+}
 .team-details__right {
   position: relative;
   display: block;
@@ -11066,4 +11078,9 @@ body.boxed-wrapper {
 }
 .f-18{
   font-size: 18px!important;
+}
+
+strong{
+  color: #000000!important;
+
 }
