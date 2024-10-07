@@ -4415,6 +4415,7 @@ ul {
   padding: 50px 50px 45px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
+  min-height: 270px;
 }
 
 .testimonial-one__single:hover {
