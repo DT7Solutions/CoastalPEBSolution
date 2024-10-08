@@ -3426,7 +3426,7 @@ ul {
   right: 0;
   content: "";
   background-color: var(--roofsie-black);
-  height: 505px;
+  height: 100%;
   z-index: -1;
   ;
 }
@@ -8282,6 +8282,7 @@ ul {
   z-index: 1;
 }
 
+
 .counter-one__list li:before {
   position: absolute;
   top: 17px;
@@ -11087,5 +11088,12 @@ body.boxed-wrapper {
 
 strong{
   color: #000000!important;
+
+}
+
+.bg-theme-color{
+  background-color: #3fa6da;
+  border-radius:25px;
+  padding: 10px 25px;
 
 }

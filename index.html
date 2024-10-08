@@ -126,20 +126,20 @@
                                         <a href="#">Products & Services</a>
                                         <ul class="border-top-2px">
                                             <li><a href="team.html">Pre Engineered Building</a></li>
-                                            <li><a href="team-carousel.html">Structural Steel</a></li>
-                                            <li><a href="team-details.html">Solar Structure</a></li>
-                                            <li><a href="testimonials.html">Seed Dryers & Conveyer-systems</a></li>
-                                            <li><a href="testimonials-carousel.html">Building Components</a></li>
-                                            <li><a href="gallery.html">Civil Works</a></li>
+                                            <li><a href="structural-steel.html">Structural Steel</a></li>
+                                            <li><a href="solar-structure.html">Solar Structure</a></li>
+                                            <li><a href="seed-dryers-and-conveyor-systems.html">Seed Dryers & Conveyer-systems</a></li>
+                                            <li><a href="building-components.html">Building Components</a></li>
+                                            <li><a href="civil-works.html">Civil Works</a></li>
                                           
                                         </ul>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#">Manfacturing </a>
+                                        <a href="manfacturing.html">Manfacturing </a>
                                         
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#">Projects</a>
+                                        <a href="gallery.html">Projects</a>
                                       
                                     </li>
                                     <li>
@@ -360,7 +360,7 @@
                                 <div class="about-one__line">
                                     <img src="assets/images/shapes/about-one-line.png" alt="">
                                 </div>
-                                <div class="about-one__satisfied">
+                                <!-- <div class="about-one__satisfied">
                                     <div class="about-one__satisfied-inner">
                                         <div class="about-one__satisfied-shape">
                                             <img src="assets/images/shapes/about-one-satisfied-shape-1.png" alt="">
@@ -373,7 +373,7 @@
                                             <p class="about-one__satisfied-text">Satisfied customers</p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="about-one__big-text">Coastal PEB</div>
                             </div>
                         </div>
@@ -421,7 +421,7 @@
                                     </div>
                                 </li>
                             </ul>
-                            <a href="about.html" class="thm-btn about-one__btn"> <i class="fa fa-arrow-right"></i> Discover more</a>
+                           
                         </div>
                     </div>
                 </div>
@@ -430,7 +430,7 @@
         <!--About One End-->
 
         <!--Services One Start-->
-        <section class="services-one">
+        <section class="services-one" >
             <div class="services-one-shape-1 float-bob-x">
                 <img src="assets/images/shapes/services-one-shape-1.png" alt="">
             </div>
@@ -460,71 +460,248 @@
                         </div>
                     </div>
                 </div>
-                <div class="services-one__bottom">
-                    <div class="row">
-                        <!--Services One Single Start-->
-                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
-                            <div class="services-one__single">
-                                <div class="services-one__img">
-                                    <img src="assets/images/services/services-1-1.jpg" alt="">
+                <div class="services-carousel thm-owl__carousel owl-theme owl-carousel carousel-dot-style" data-owl-options='{
+                    "items": 3,
+                    "margin": 30,
+                    "smartSpeed": 700,
+                    "loop":true,
+                    "autoplay": 6000,
+                    "nav":false,
+                    "dots":true,
+                    "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
+                    "responsive":{
+                        "0":{
+                            "items":1
+                        },
+                        "768":{
+                            "items":2
+                        },
+                        "992":{
+                            "items": 3
+                        }
+                    }
+                }'>
+                    <!--Services One Single Start-->
+                    <div class="item">
+                        <div class="services-one__single">
+                            <div class="services-one__img">
+                                <img src="assets/images/services/industrial.png" alt="">
+                            </div>
+                            <div class="services-one__content">
+                                <div class="services-one__icon">
+                                    <!-- <span class="icon-roof"></span> -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" x="0" y="0" viewBox="0 0 640 640" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M629.328 373.336h-32.715l-20.617-299.39a10.674 10.674 0 0 0-10.668-9.942h-64a10.674 10.674 0 0 0-10.668 9.941l-20.617 299.39H448v-64c0-5.886-4.777-10.667-10.664-10.667a10.637 10.637 0 0 0-6.672 2.34l-89.332 71.465v-63.137c0-5.887-4.773-10.668-10.664-10.668a10.634 10.634 0 0 0-6.668 2.34l-89.332 71.465v-63.137c0-5.887-4.773-10.668-10.664-10.668a10.626 10.626 0 0 0-6.668 2.34l-89.332 71.465v-63.137a10.67 10.67 0 0 0-16.164-9.14l-106.668 64A10.667 10.667 0 0 0 0 373.335v256C0 635.226 4.777 640 10.668 640h618.66c5.89 0 10.668-4.773 10.668-10.664V384.004c0-5.895-4.777-10.668-10.668-10.668Zm-118.039-288h44.078l19.867 288h-83.812ZM362.66 618.668v-128h64v128Zm256.004 0H448V480c0-5.887-4.781-10.664-10.672-10.664h-85.332c-5.89 0-10.668 4.777-10.668 10.664v138.668H21.332V379.375l85.332-51.2v66.493c0 5.894 4.773 10.668 10.664 10.676 2.422 0 4.777-.828 6.672-2.344l89.332-71.465v63.133c0 5.894 4.77 10.668 10.664 10.676 2.422 0 4.774-.828 6.668-2.34l89.332-71.465v63.133c0 5.89 4.77 10.672 10.664 10.672 2.422 0 4.774-.828 6.668-2.34l89.332-71.465v52.465c0 5.894 4.777 10.668 10.668 10.668h181.328v223.996ZM362.59 21.34a39.61 39.61 0 0 1 10.37 8.02 37.318 37.318 0 0 0 23.837 13.312 38.935 38.935 0 0 0 25.133-13.867 49.991 49.991 0 0 1 9.004-7.465c2.195.098 7.945 5.48 11.039 8.37a35.723 35.723 0 0 0 23.09 12.962 41.649 41.649 0 0 0 26.796-14.7c2.614-2.452 6.57-6.175 7.336-6.632 5.727 0 7.04 1.898 10.563 6.976a26.974 26.974 0 0 0 23.574 14.356c5.887 0 10.664-4.777 10.664-10.664 0-5.895-4.777-10.668-10.664-10.668-2.137 0-2.55-.149-6.016-5.152A31.521 31.521 0 0 0 499.196.003a34.252 34.252 0 0 0-21.95 12.418c-3.543 3.34-9.48 8.918-11.734 8.969a43.46 43.46 0 0 1-8.985-7.239A39.584 39.584 0 0 0 430.93.004a36.979 36.979 0 0 0-23.586 13.184 44.285 44.285 0 0 1-10.25 8.152 41.497 41.497 0 0 1-9.598-7.574A38.69 38.69 0 0 0 362.66.004c-5.887-.02-10.683 4.738-10.703 10.633-.02 5.886 4.742 10.683 10.633 10.703Zm0 0" style="stroke:none;fill-rule:nonzero;fill-opacity:1;" fill="#ffffff" data-original="#000000" opacity="1" class=""></path><path d="M117.336 490.668H74.664c-5.89 0-10.664 4.777-10.664 10.664v64C64 571.227 68.773 576 74.664 576h42.672c5.887 0 10.664-4.773 10.664-10.668v-64c0-5.887-4.777-10.664-10.664-10.664Zm-10.672 64H85.332v-42.664h21.332ZM202.668 490.668H160c-5.895 0-10.668 4.777-10.668 10.664v64A10.664 10.664 0 0 0 160 576h42.668c5.887 0 10.664-4.773 10.664-10.668v-64c0-5.887-4.777-10.664-10.664-10.664Zm-10.672 64h-21.332v-42.664h21.332ZM288 490.668h-42.668c-5.894 0-10.668 4.777-10.668 10.664v64A10.664 10.664 0 0 0 245.332 576H288c5.887 0 10.664-4.773 10.664-10.668v-64c0-5.887-4.777-10.664-10.664-10.664Zm-10.672 64h-21.332v-42.664h21.332Zm0 0" style="stroke:none;fill-rule:nonzero;fill-opacity:1;" fill="#ffffff" data-original="#000000" opacity="1" class=""></path></g></svg>
                                 </div>
-                                <div class="services-one__content">
-                                    <div class="services-one__icon">
-                                        <span class="icon-roof"></span>
-                                    </div>
-                                    <h3 class="services-one__title"><a href="single-play-roofing.html">Precise Engineering</a></h3>
-                                    <p class="services-one__text">Nulla commodo dolor massa, vel pellen esque nulla congue quis.</p>
-                                    <div class="services-one__read-more">
-                                        <a href="single-play-roofing.html">Read More <i class="fa fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
+                                <h3 class="services-one__title"><a href="single-play-roofing.html">Industrial</a></h3>
+                                <p class="services-one__text">Nulla commodo dolor massa, vel pellen esque nulla congue quis.</p>
+                                
                             </div>
                         </div>
-                        <!--Services One Single End-->
-                        <!--Services One Single Start-->
-                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
-                            <div class="services-one__single">
-                                <div class="services-one__img">
-                                    <img src="assets/images/services/services-1-2.jpg" alt="">
-                                </div>
-                                <div class="services-one__content">
-                                    <div class="services-one__icon">
-                                        <span class="icon-joist"></span>
-                                    </div>
-                                    <h3 class="services-one__title"><a href="modified-roofing.html">Modified roofing</a></h3>
-                                    <p class="services-one__text">Nulla commodo dolor massa, vel pellen esque nulla congue quis.</p>
-                                    <div class="services-one__read-more">
-                                        <a href="modified-roofing.html">Read More <i class="fa fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Services One Single End-->
-                        <!--Services One Single Start-->
-                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
-                            <div class="services-one__single">
-                                <div class="services-one__img">
-                                    <img src="assets/images/services/services-1-3.jpg" alt="">
-                                </div>
-                                <div class="services-one__content">
-                                    <div class="services-one__icon">
-                                        <span class="icon-roof-1"></span>
-                                    </div>
-                                    <h3 class="services-one__title"><a href="built-up-roofing.html">Built-up roofing</a></h3>
-                                    <p class="services-one__text">Nulla commodo dolor massa, vel pellen esque nulla congue quis.</p>
-                                    <div class="services-one__read-more">
-                                        <a href="built-up-roofing.html">Read More <i class="fa fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Services One Single End-->
                     </div>
+                    <!--Services One Single End-->
+                    <!--Services One Single Start-->
+                    <div class="item">
+                        <div class="services-one__single">
+                            <div class="services-one__img">
+                                <img src="assets/images/services/warehouse.png" alt="">
+                            </div>
+                            <div class="services-one__content">
+                                <div class="services-one__icon">
+                                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M507.785 146.242 260.318 1.175a8.53 8.53 0 0 0-8.439-.111L4.412 137.598A8.516 8.516 0 0 0 0 145.064v358.4a8.53 8.53 0 0 0 8.533 8.533H51.2a8.53 8.53 0 0 0 8.533-8.533V204.798h392.533v298.667a8.525 8.525 0 0 0 8.533 8.533h42.667a8.525 8.525 0 0 0 8.533-8.533V153.598a8.515 8.515 0 0 0-4.214-7.356zm-12.852 348.689h-25.6V196.264a8.53 8.53 0 0 0-8.533-8.533H51.2a8.536 8.536 0 0 0-8.533 8.533v298.667h-25.6V150.099L255.872 18.344l239.061 140.143v336.444z" fill="#ffffff" opacity="1" data-original="#000000"></path><path d="M426.667 392.531h-102.4a8.525 8.525 0 0 0-8.533 8.533v102.4a8.525 8.525 0 0 0 8.533 8.533h102.4a8.525 8.525 0 0 0 8.533-8.533v-102.4a8.525 8.525 0 0 0-8.533-8.533zm-8.534 102.4H332.8v-85.333h85.333v85.333z" fill="#ffffff" opacity="1" data-original="#000000"></path><path d="M384 401.064v25.6h-17.067v-25.6h-17.067v34.133a8.525 8.525 0 0 0 8.533 8.533h34.133a8.525 8.525 0 0 0 8.533-8.533v-34.133H384zM324.267 392.531h-102.4a8.53 8.53 0 0 0-8.533 8.533v102.4a8.53 8.53 0 0 0 8.533 8.533h102.4a8.525 8.525 0 0 0 8.533-8.533v-102.4a8.525 8.525 0 0 0-8.533-8.533zm-8.534 102.4H230.4v-85.333h85.333v85.333z" fill="#ffffff" opacity="1" data-original="#000000"></path><path d="M281.6 401.064v25.6h-17.067v-25.6h-17.067v34.133a8.53 8.53 0 0 0 8.533 8.533h34.133a8.525 8.525 0 0 0 8.533-8.533v-34.133H281.6zM426.667 290.131h-102.4a8.525 8.525 0 0 0-8.533 8.533v102.4a8.525 8.525 0 0 0 8.533 8.533h102.4a8.525 8.525 0 0 0 8.533-8.533v-102.4a8.525 8.525 0 0 0-8.533-8.533zm-8.534 102.4H332.8v-85.333h85.333v85.333z" fill="#ffffff" opacity="1" data-original="#000000"></path><path d="M384 298.664v25.6h-17.067v-25.6h-17.067v34.133a8.525 8.525 0 0 0 8.533 8.533h34.133a8.525 8.525 0 0 0 8.533-8.533v-34.133H384zM51.2 255.998h409.6v17.067H51.2zM51.2 221.864h409.6v17.067H51.2zM298.667 119.464h-85.333a8.536 8.536 0 0 0-8.533 8.533v34.133a8.536 8.536 0 0 0 8.533 8.533h85.333a8.53 8.53 0 0 0 8.533-8.533v-34.133a8.53 8.53 0 0 0-8.533-8.533zm-8.534 34.134h-68.267v-17.067h68.267v17.067z" fill="#ffffff" opacity="1" data-original="#000000"></path></g></svg>
+                                </div>
+                                <h3 class="services-one__title"><a href="modified-roofing.html">Warehousing</a></h3>
+                                <p class="services-one__text">Nulla commodo dolor massa, vel pellen esque nulla congue quis.</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <!--Services One Single End-->
+                    <!--Services One Single Start-->
+                    <div class="item">
+                        <div class="services-one__single">
+                            <div class="services-one__img">
+                                <img src="assets/images/services/commercial.png" alt="">
+                            </div>
+                            <div class="services-one__content">
+                                <div class="services-one__icon">
+                                   <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M480.36 494.742h-14.382V43.146a8.629 8.629 0 0 0-8.629-8.629H296.27a8.628 8.628 0 0 0-8.629 8.629v37.393h-17.258V43.146a8.629 8.629 0 0 0-8.629-8.629H224.36V8.629c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v25.888h-37.393a8.628 8.628 0 0 0-8.629 8.629v37.393h-25.888a8.628 8.628 0 0 0-8.629 8.629v71.91h-71.91a8.628 8.628 0 0 0-8.629 8.629v325.034H31.64c-4.766 0-8.629 3.862-8.629 8.629S26.875 512 31.64 512h448.72c4.766 0 8.629-3.862 8.629-8.629s-3.864-8.629-8.629-8.629zM178.337 51.775h74.786v28.764h-74.786V51.775zm-28.764 442.967h-5.753V480.36c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v14.382h-5.753v-28.764h28.764v28.764zm57.528-221.484v221.484h-40.27v-37.393a8.629 8.629 0 0 0-8.629-8.629H112.18a8.628 8.628 0 0 0-8.629 8.629v37.393h-40.27V178.337h143.82v94.921zm8.629-112.179h-71.91V97.798h143.82v166.831h-63.28v-28.764h25.888c4.766 0 8.629-3.862 8.629-8.629s-3.864-8.629-8.629-8.629H224.36v-28.764h25.888c4.766 0 8.629-3.862 8.629-8.629s-3.864-8.629-8.629-8.629H224.36v-2.876a8.629 8.629 0 0 0-8.63-8.63zm152.45 333.663H224.36V281.888h143.82v212.854zm80.539 0h-63.281v-232.99c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v2.876h-17.258v-2.876c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v2.876H304.9V51.775h143.82v442.967z" fill="#ffffff" opacity="1" data-original="#000000" class=""></path><path d="M261.753 477.485a8.63 8.63 0 0 0 8.629-8.629V307.778c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v161.079a8.628 8.628 0 0 0 8.629 8.628zM296.27 477.485a8.63 8.63 0 0 0 8.629-8.629V307.778c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v161.079a8.628 8.628 0 0 0 8.629 8.628zM330.786 477.485a8.63 8.63 0 0 0 8.629-8.629V307.778c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v161.079a8.629 8.629 0 0 0 8.629 8.628zM342.292 109.303a8.628 8.628 0 0 0 8.629-8.629V89.169c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.628 8.628 0 0 0 8.629 8.628zM376.809 109.303a8.628 8.628 0 0 0 8.629-8.629V89.169c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.628 8.628 0 0 0 8.629 8.628zM411.326 109.303a8.628 8.628 0 0 0 8.629-8.629V89.169c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.628 8.628 0 0 0 8.629 8.628zM342.292 166.831a8.628 8.628 0 0 0 8.629-8.629v-11.506c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.628 8.628 0 0 0 8.629 8.629zM376.809 166.831a8.628 8.628 0 0 0 8.629-8.629v-11.506c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.628 8.628 0 0 0 8.629 8.629zM411.326 166.831a8.628 8.628 0 0 0 8.629-8.629v-11.506c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.628 8.628 0 0 0 8.629 8.629zM342.292 224.36a8.628 8.628 0 0 0 8.629-8.629v-11.506c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.629 8.629 0 0 0 8.629 8.629zM376.809 224.36a8.628 8.628 0 0 0 8.629-8.629v-11.506c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.629 8.629 0 0 0 8.629 8.629zM411.326 224.36a8.628 8.628 0 0 0 8.629-8.629v-11.506c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.629 8.629 0 0 0 8.629 8.629zM100.674 247.371a8.628 8.628 0 0 0 8.629-8.629v-11.506c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.63 8.63 0 0 0 8.629 8.629zM135.191 247.371a8.628 8.628 0 0 0 8.629-8.629v-11.506c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.629 8.629 0 0 0 8.629 8.629zM169.708 247.371a8.628 8.628 0 0 0 8.629-8.629v-11.506c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.629 8.629 0 0 0 8.629 8.629zM100.674 304.899a8.628 8.628 0 0 0 8.629-8.629v-11.506c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.63 8.63 0 0 0 8.629 8.629zM135.191 304.899a8.628 8.628 0 0 0 8.629-8.629v-11.506c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.629 8.629 0 0 0 8.629 8.629zM169.708 304.899a8.628 8.628 0 0 0 8.629-8.629v-11.506c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.629 8.629 0 0 0 8.629 8.629zM100.674 362.427a8.628 8.628 0 0 0 8.629-8.629v-11.506c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.629 8.629 0 0 0 8.629 8.629zM135.191 362.427a8.628 8.628 0 0 0 8.629-8.629v-11.506c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.628 8.628 0 0 0 8.629 8.629zM169.708 362.427a8.628 8.628 0 0 0 8.629-8.629v-11.506c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.628 8.628 0 0 0 8.629 8.629zM100.674 419.955a8.628 8.628 0 0 0 8.629-8.629V399.82c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.629 8.629 0 0 0 8.629 8.629zM135.191 419.955a8.628 8.628 0 0 0 8.629-8.629V399.82c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.628 8.628 0 0 0 8.629 8.629zM169.708 419.955a8.628 8.628 0 0 0 8.629-8.629V399.82c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.628 8.628 0 0 0 8.629 8.629zM411.326 281.888a8.628 8.628 0 0 0 8.629-8.629v-11.506c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.629 8.629 0 0 0 8.629 8.629zM411.326 339.416a8.628 8.628 0 0 0 8.629-8.629v-11.506c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.629 8.629 0 0 0 8.629 8.629zM411.326 396.944a8.628 8.628 0 0 0 8.629-8.629v-11.506c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.629 8.629 0 0 0 8.629 8.629zM411.326 454.472a8.628 8.628 0 0 0 8.629-8.629v-11.506c0-4.767-3.864-8.629-8.629-8.629s-8.629 3.862-8.629 8.629v11.506a8.629 8.629 0 0 0 8.629 8.629zM258.876 135.191a8.629 8.629 0 0 0-8.629-8.629h-69.034a8.628 8.628 0 0 0-8.629 8.629 8.629 8.629 0 0 0 8.629 8.629h69.034a8.628 8.628 0 0 0 8.629-8.629z" fill="#ffffff" opacity="1" data-original="#000000" class=""></path></g></svg>
+                                </div>
+                                <h3 class="services-one__title"><a href="built-up-roofing.html">Commercial</a></h3>
+                                <p class="services-one__text">Nulla commodo dolor massa, vel pellen esque nulla congue quis.</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <!--Services One Single End-->
+                    <!--Services One Single Start-->
+                    <div class="item">
+                        <div class="services-one__single">
+                            <div class="services-one__img">
+                                <img src="assets/images/services/infrastructure.png" alt="">
+                            </div>
+                            <div class="services-one__content">
+                                <div class="services-one__icon">
+                                    <!-- <span class="icon-analysis"></span> -->
+                                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" x="0" y="0" viewBox="0 0 128 128" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M74 115.998a2 2 0 0 0 0-4H64v-4.001h4a2 2 0 0 0 0-4.001H56v-4a4.005 4.005 0 0 0-4-4.002h-1V35.982h1a4.005 4.005 0 0 0 4-4V25.98a2 2 0 0 0-2-2H32a2 2 0 0 0-2 2v6.001a4.005 4.005 0 0 0 4 4.001h1v60.012h-1a4.005 4.005 0 0 0-4 4.001v4h-4v-4a4.005 4.005 0 0 0-4-4h-1V35.981h1a4.005 4.005 0 0 0 4-4V25.98a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v6.001a4.005 4.005 0 0 0 4 4.001h1v60.012H4a4.005 4.005 0 0 0-4 4.001V122a2 2 0 0 0 2 2h72a2 2 0 0 0 0-4H64v-4.002ZM4 31.981v-4h18.001l.001 4Zm13 4.001v60.012H9V35.982ZM4 99.995h18v4H4ZM12 120H4v-4h8Zm0-8.001H4v-4.001h8Zm12 8.001h-8v-4h8Zm0-8.001h-8v-4.001h8ZM34 31.98v-4h18.001l.001 4Zm13 4.001v60.012h-8V35.982ZM34 99.995h18v4H34ZM36 120h-8v-4h8Zm0-8.001h-8v-4.001h8Zm12 8.001h-8v-4h8Zm0-8.001h-8v-4.001h8Zm12 8.001h-8v-4h8Zm0-8.001h-8v-4.001h8Z" fill="#ffffff" opacity="1" data-original="#000000" class=""></path><path d="M126.839 83.182 74.324 4.862a2.057 2.057 0 0 0-2.802-.529s-7.638 5.305-7.663 5.322A2.103 2.103 0 0 0 63 11.298v36.686h-3a4.005 4.005 0 0 0-4 4.001v10.002a4.005 4.005 0 0 0 4 4.001h10a4.005 4.005 0 0 0 4-4V51.984a4.005 4.005 0 0 0-4-4h-3V18.666l37.698 64.325h-.394a5.996 5.996 0 0 0-3.958 1.491L84.723 98.2A7.999 7.999 0 0 0 82 104.213v10.785A4.005 4.005 0 0 0 86 119h2.295a6.995 6.995 0 0 0 13.41 0h6.59a6.995 6.995 0 0 0 13.41 0H124a4.005 4.005 0 0 0 4-4V84.991a1.997 1.997 0 0 0-1.161-1.81ZM70 51.985l.002 10.002H60V51.985Zm-2.338-40.1 3.603-2.503 2.372 12.697Zm8.751 3.275L91.59 37.795l-12.097-6.15Zm6.47 22.697 12.152 6.177.826 15.967Zm16.431 11.458 17.624 26.284-16.717-8.754Zm4.222 23.782 18.068 9.461.29.434h-12.56Zm-.551 14.393a2 2 0 0 1 1.32-.498H113v13.003H88.74ZM95 120a3 3 0 1 1 3-3.001 3.004 3.004 0 0 1-3 3Zm20 0a3 3 0 1 1 3-3.001 3.004 3.004 0 0 1-3 3Zm9-5.002h-2.295a6.995 6.995 0 0 0-13.41 0h-6.59a6.995 6.995 0 0 0-13.41 0H86v-10.785c0-.074.02-.144.023-.217H113a4.005 4.005 0 0 0 4-4V86.991h7Z" fill="#ffffff" opacity="1" data-original="#000000" class=""></path></g></svg>
+                                </div>
+                                <h3 class="services-one__title"><a href="roof-inspection.html">Infrastructures</a></h3>
+                                <p class="services-one__text">Nulla commodo dolor massa, vel pellen esque nulla congue quis.</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <!--Services One Single End-->
+                   
+                 
+                  
+                   
+               
                 </div>
             </div>
         </section>
         <!--Services One End-->
-
+  <!--FAQ One Start-->
+  <section class="faq-one">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6">
+                <div class="faq-one__lef">
+                    <div class="faq-one__img">
+                        <img src="assets/images/resources/faq-one-img.jpg" alt="">
+                    </div>
+                    <ul class="list-unstyled faq-one__point">
+                        <li>
+                            <div class="icon">
+                                <span class="icon-tick"></span>
+                            </div>
+                            <div class="content">
+                                <h4>Reliable & trustworthy</h4>
+                                <p>Lorem Ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem is simply free text.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <span class="icon-tick"></span>
+                            </div>
+                            <div class="content">
+                                <h4>High quality material</h4>
+                                <p>Lorem Ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem is simply free text.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6">
+                <div class="faq-one__right">
+                    <div class="accrodion-grp" data-grp-name="faq-one-accrodion">
+                        <div class="accrodion active">
+                            <div class="accrodion-title">
+                                <h4>What is Coastal PEB Solutions, and what services do they offer ?</h4>
+                            </div>
+                            <div class="accrodion-content">
+                                <div class="inner">
+                                    <p>Coastal PEB Solutions is a leading provider of pre-engineered building (PEB) solutions in India. The company offers a variety of services, including design, engineering, fabrication, and installation of PEB structures  </p>
+                                </div><!-- /.inner -->
+                            </div>
+                        </div>
+                        <div class="accrodion">
+                            <div class="accrodion-title">
+                                <h4>Proin imperdiet mi id urna egestas dictum.</h4>
+                            </div>
+                            <div class="accrodion-content">
+                                <div class="inner">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut  magna aliqua. </p>
+                                </div><!-- /.inner -->
+                            </div>
+                        </div>
+                        <div class="accrodion">
+                            <div class="accrodion-title">
+                                <h4>Cras ultrices elit eget ex pulvinar, leo lacinia.</h4>
+                            </div>
+                            <div class="accrodion-content">
+                                <div class="inner">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut  magna aliqua. </p>
+                                </div><!-- /.inner -->
+                            </div>
+                        </div>
+                        <div class="accrodion last-chiled">
+                            <div class="accrodion-title">
+                                <h4>Aenean feugiat enim a pulvinar pellentesque.</h4>
+                            </div>
+                            <div class="accrodion-content">
+                                <div class="inner">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut  magna aliqua. </p>
+                                </div><!-- /.inner -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--FAQ One End-->
+            <!--Counter One Start-->
+            <section class="counter-one  mt-5 mb-5">
+                <div class="container">
+                    <div class="counter-one__inner">
+                        <div class="counter-one__left">
+                            <div class="counter-one__left-content">
+                                <p class="counter-one__sub-title">Numbers game</p>
+                                <h3 class="counter-one__title">Interesting fun facts</h3>
+                                <div class="counter-one__left-icon">
+                                    <img src="assets/images/icon/counter-one-left-icon.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="counter-one__right">
+                            <ul class="list-unstyled counter-one__list">
+                                <li>
+                                    <div class="counter-one__count-box">
+                                        <h3 class="odometer" data-count="500">500</h3>
+                                        <span class="counter-one__plus">+</span>
+                                    </div>
+                                    <p class="counter-one__text">Projects <br> competed </p>
+                                    <div class="counter-one__icon">
+                                        <span class="icon-roof-3"></span>
+                                    </div>
+                                    <div class="counter-one__big-icon">
+                                        <span class="icon-roof-3"></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="counter-one__count-box">
+                                        <h3 class="odometer" data-count="40">40</h3>
+                                        <span class="counter-one__plus"></span>
+                                    </div>
+                                    <p class="counter-one__text">Years <br>of Experience </p>
+                                    <div class="counter-one__icon">
+                                        <span class="icon-award"></span>
+                                    </div>
+                                    <div class="counter-one__big-icon">
+                                        <span class="icon-award"></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="counter-one__count-box">
+                                        <h3 class="odometer" data-count="200">200</h3>
+                                        <!-- <span class="counter-one__plus">K</span> -->
+                                    </div>
+                                    <p class="counter-one__text">Team <br></p>
+                                    <div class="counter-one__icon">
+                                        <span class="icon-construction-worker-1"></span>
+                                    </div>
+                                    <div class="counter-one__big-icon">
+                                        <span class="icon-construction-worker-1"></span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Counter One End-->
+    
         <!--Why Choose One Start-->
         <section class="why-choose-one">
             <div class="why-choose-one-bg" style="background-image: url(assets/images/backgrounds/why-choose-one-bg.jpg);"></div>
@@ -704,65 +881,7 @@
         </section>
         <!--Brand One End-->
 
-        
-        <!--Trust Company Start-->
-        <section class="trust-company">
-            <div class="trust-company-shape-1">
-                <img src="assets/images/shapes/traust-company-shape-1.png" alt="">
-            </div>
-            <div class="trust-company-shape-2"></div>
-            <div class="trust-company-shape-3"></div>
-            <div class="trust-company-shape-4"></div>
-            <div class="trust-company-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style="background-image: url(assets/images/backgrounds/trust-company-bg.jpg);"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-7">
-                        <div class="trust-company__left">
-                            <div class="trust-company__video-link">
-                                <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
-                                    <div class="trust-company__video-icon">
-                                        <span class="fa fa-play"></span>
-                                        <i class="ripple"></i>
-                                    </div>
-                                </a>
-                            </div>
-                            <h2 class="trust-company__title">Hundreds of customers trust our company</h2>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-5">
-                        <div class="trust-company__right">
-                            <ul class="list-unstyled trust-compay__points">
-                                <li>
-                                    <div class="icon">
-                                        <span class="icon-tick"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>We’ve expert & certified staff</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="icon-tick"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>We only provide quality services</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="icon-tick"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>We offer you free estimates</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Trust Company End-->
+       
 
         <!--Testimonial One Start-->
         <section class="testimonial-one">
@@ -931,7 +1050,7 @@
                                     <img src="assets/images/gallery/project-one.png" alt="">
                                 </div>
                                 <div class="project-one__content">
-                                    <h4 class="project-one__title"><a href="work-details.html">Modern <br> roofing style</a>
+                                    <h4 class="project-one__title"><a href="work-details.html">Crane Powder Works PEB <br>North Light Yanamadala</a>
                                     </h4>
                                 </div>
                                 <div class="project-one__link">
@@ -949,7 +1068,7 @@
                                     <img src="assets/images/gallery/project-two.png" alt="">
                                 </div>
                                 <div class="project-one__content">
-                                    <h4 class="project-one__title"><a href="work-details.html">Modern <br> roofing style</a>
+                                    <h4 class="project-one__title"><a href="work-details.html">Mohan Weaving<br>Unit Mallavali</a>
                                     </h4>
                                 </div>
                                 <div class="project-one__link">
@@ -967,7 +1086,7 @@
                                     <img src="assets/images/gallery/project-three.png" alt="">
                                 </div>
                                 <div class="project-one__content">
-                                    <h4 class="project-one__title"><a href="work-details.html">Modern <br> roofing style</a>
+                                    <h4 class="project-one__title"><a href="work-details.html">Mohan Spintex <br>boiler Mallavali</a>
                                     </h4>
                                 </div>
                                 <div class="project-one__link">
@@ -985,7 +1104,7 @@
                                     <img src="assets/images/project/project-four.png" alt="">
                                 </div>
                                 <div class="project-one__content">
-                                    <h4 class="project-one__title"><a href="work-details.html">Modern <br> roofing style</a>
+                                    <h4 class="project-one__title"><a href="work-details.html">Simha Kia <br>Guntur Vijayawada </a>
                                     </h4>
                                 </div>
                                 <div class="project-one__link">
@@ -1003,7 +1122,7 @@
                                     <img src="assets/images/project/project-five.png" alt="">
                                 </div>
                                 <div class="project-one__content">
-                                    <h4 class="project-one__title"><a href="work-details.html">Modern <br> roofing style</a>
+                                    <h4 class="project-one__title"><a href="work-details.html">Brahma Agro<br>Tech Gummadidala</a>
                                     </h4>
                                 </div>
                                 <div class="project-one__link">
@@ -1021,7 +1140,7 @@
                                     <img src="assets/images/project/project-six.png" alt="">
                                 </div>
                                 <div class="project-one__content">
-                                    <h4 class="project-one__title"><a href="work-details.html">Modern <br> roofing style</a>
+                                    <h4 class="project-one__title"><a href="work-details.html">Guntur Textile Park <br>Gopalamvaripalem</a>
                                     </h4>
                                 </div>
                                 <div class="project-one__link">
@@ -1039,7 +1158,7 @@
                                     <img src="assets/images/project/project-seven.png" alt="">
                                 </div>
                                 <div class="project-one__content">
-                                    <h4 class="project-one__title"><a href="work-details.html">Modern <br> roofing style</a>
+                                    <h4 class="project-one__title"><a href="work-details.html">Ushodaya- vijayawada  <br>Gannavaram,Tadepalli</a>
                                     </h4>
                                 </div>
                                 <div class="project-one__link">
@@ -1057,7 +1176,7 @@
                                     <img src="assets/images/project/project-eight.png" alt="">
                                 </div>
                                 <div class="project-one__content">
-                                    <h4 class="project-one__title"><a href="work-details.html">Modern <br> roofing style</a>
+                                    <h4 class="project-one__title"><a href="work-details.html">Mr Printers <br>Surampali</a>
                                     </h4>
                                 </div>
                                 <div class="project-one__link">
@@ -1075,7 +1194,7 @@
                                     <img src="assets/images/project/project-nine.png" alt="">
                                 </div>
                                 <div class="project-one__content">
-                                    <h4 class="project-one__title"><a href="work-details.html">Modern <br> roofing style</a>
+                                    <h4 class="project-one__title"><a href="work-details.html">Nacharam Seeds<br>Nacharam</a>
                                     </h4>
                                 </div>
                                 <div class="project-one__link">
@@ -1093,7 +1212,7 @@
                                     <img src="assets/images/project/project-ten.png" alt="">
                                 </div>
                                 <div class="project-one__content">
-                                    <h4 class="project-one__title"><a href="work-details.html">Modern <br> roofing style</a>
+                                    <h4 class="project-one__title"><a href="work-details.html">Bright Shine<br>Chemicals Dacheppali</a>
                                     </h4>
                                 </div>
                                 <div class="project-one__link">
@@ -1111,7 +1230,7 @@
                                     <img src="assets/images/project/project-eleven.png" alt="">
                                 </div>
                                 <div class="project-one__content">
-                                    <h4 class="project-one__title"><a href="work-details.html">Modern <br> roofing style</a>
+                                    <h4 class="project-one__title"><a href="work-details.html">Warehouse<br>Pulladigunta</a>
                                     </h4>
                                 </div>
                                 <div class="project-one__link">
@@ -1129,7 +1248,7 @@
                                     <img src="assets/images/project/project-tweleve.png" alt="">
                                 </div>
                                 <div class="project-one__content">
-                                    <h4 class="project-one__title"><a href="work-details.html">Modern <br> roofing style</a>
+                                    <h4 class="project-one__title"><a href="work-details.html">Vmc Warehouse<br>Pulladigunta</a>
                                     </h4>
                                 </div>
                                 <div class="project-one__link">
@@ -1150,7 +1269,7 @@
         <section class="cta-one">
             <div class="cta-one__img-box">
                 <div class="cta-one__img">
-                    <img src="assets/images/resources/cta-one-img-1.jpg" alt="">
+                    <img src="assets/images/backgrounds/cta-image.png" alt="">
                 </div>
             </div>
             <div class="container">
