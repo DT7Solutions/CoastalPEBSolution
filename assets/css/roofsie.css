@@ -6928,7 +6928,7 @@ ul {
 .google-map {
   position: relative;
   display: block;
-  background-color: var(--roofsie-primary);
+  /* background-color: var(--roofsie-primary); */
 }
 
 .google-map__one {
@@ -6937,7 +6937,7 @@ ul {
   border: none;
   height: 470px;
   width: 100%;
-  mix-blend-mode: luminosity;
+  /* mix-blend-mode: luminosity; */
 }
 
 /*--------------------------------------------------------------
@@ -10214,6 +10214,7 @@ ul {
 .contact-details__list {
   position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -10221,9 +10222,10 @@ ul {
 .contact-details__list li {
   position: relative;
   flex: 0 0 33.333333%;
-  max-width: 33.333333%;
+  /* max-width: 33.333333%; */
   width: 100%;
-  text-align: center;
+  display:flex;
+  /* text-align: center; */
   margin-bottom: 19px;
 }
 
@@ -10234,7 +10236,7 @@ ul {
   right: 0;
   content: "";
   width: 2px;
-  background-color: var(--roofsie-primary);
+  /* background-color: var(--roofsie-primary); */
 }
 
 .contact-details__list li:last-child:before {
@@ -10246,11 +10248,12 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 110px;
-  width: 110px;
+  height: 40px;
+  width: 40px;
   border: 10px solid var(--roofsie-base);
   border-radius: 50%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin: 0 10px 0 0;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -10263,7 +10266,8 @@ ul {
   position: relative;
   display: inline-block;
   font-size: 20px;
-  color: var(--roofsie-black);
+  color: var(--roofsie-white);
+  background-color: var(--roofsie-base);
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -10275,7 +10279,7 @@ ul {
 .contact-details__content {
   position: relative;
   display: block;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .contact-details__content h4 {
@@ -10330,7 +10334,7 @@ ul {
 }
 
 .contact-page .container {
-  max-width: 770px;
+  max-width: 1200px;
 }
 
 .contact-page__form {
