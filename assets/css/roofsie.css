@@ -2472,7 +2472,7 @@ ul {
 
 .main-slider__title {
   position: relative;
-  font-size: 70px;
+  font-size: 50px;
   color: var(--roofsie-white);
   font-weight: 800;
   line-height: 80px;
@@ -11093,7 +11093,8 @@ strong{
 
 .bg-theme-color{
   background-color: #3fa6da;
-  border-radius:25px;
-  padding: 10px 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: 10px 20px;
 
 }
