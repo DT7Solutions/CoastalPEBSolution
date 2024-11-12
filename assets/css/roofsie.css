@@ -11261,4 +11261,12 @@ strong{
   color:#fff
 }
 
-
+.brand-one .swiper-slide img {
+  transition: 500ms;
+ 
+  max-width: 100%;
+}
+.brand-one .swiper-slide{
+  width:150px!important;
+  margin-right: 0px!important;
+}
