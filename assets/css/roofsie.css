@@ -5376,9 +5376,11 @@ ul {
 .services-two__single {
   position: relative;
   display: block;
-  background-color: var(--roofsie-primary);
+  background-color:#fff;
+  border: 1px solid #e2e0e5!important;
   border-radius: 10px;
-  text-align: center;
+  min-height: 460px;
+  /* text-align: center; */
   padding: 40px 0 40px;
   margin-bottom: 30px;
 }
@@ -5539,6 +5541,7 @@ ul {
   position: relative;
   display: block;
   padding-left: 130px;
+  min-height:250px;
 }
 
 .why-choose-two__list-one li+li {
@@ -11269,4 +11272,48 @@ strong{
 .brand-one .swiper-slide{
   width:150px!important;
   margin-right: 0px!important;
+}
+.services-two__single {
+  position: relative;
+  display: block;
+  border-radius: var(--qutiiz-bdr-radius);
+  border: 1px solid transparent;
+  /* background-color: #f6f4f9; */
+  padding: 38px 40px 24px;
+  margin-bottom: 30px;
+  transition: all 500ms ease;
+}
+.services-two__icon {
+  position: relative;
+  display: inline-block;
+}
+.services-two__title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 29px;
+  margin-top: 16px;
+  margin-bottom: 25px;
+}
+.services-two__text {
+  font-size: 16px;
+  margin: 0;
+  line-height: 32px;
+  padding-bottom: 9px;
+}
+.services-two__arrow {
+  color: var(--qutiiz-gray);
+  font-size: 20px;
+  transition: all 500ms ease;
+}
+.services-two__single:hover {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 10px 60px 0px rgb(0, 0, 0, 0.07);
+  border: 1px solid #e2e0e5;
+}
+.why-choose-two__list-one li .icon svg{
+  fill:#fff;
+}
+.why-choose-two__list-one li:hover .icon svg{
+  fill:#3fa6da;
 }
