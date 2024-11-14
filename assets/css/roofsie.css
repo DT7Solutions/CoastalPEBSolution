@@ -11317,3 +11317,8 @@ strong{
 .why-choose-two__list-one li:hover .icon svg{
   fill:#3fa6da;
 }
+.color-sheet{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
