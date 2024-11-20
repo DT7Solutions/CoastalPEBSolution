@@ -4845,7 +4845,8 @@ ul {
 .site-footer {
   position: relative;
   display: block;
-  background-color: var(--roofsie-black);
+  /* background-color: var(--roofsie-black); */
+  background-color: #021116;
   z-index: 1;
 }
 
