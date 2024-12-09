@@ -3075,14 +3075,15 @@ ul {
   display: block;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 10px 39.2px 0.8px rgba(0, 0, 0, 0.1);
-  padding: 0 40px 30px;
+  padding: 20px 40px 30px;
   margin-bottom: 93px;
   z-index: 1;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-radius:10px;
+  /* border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; */
 }
 
-.feature-one__single:before {
+/* .feature-one__single:before {
   content: "";
   position: absolute;
   top: 0;
@@ -3090,7 +3091,7 @@ ul {
   right: 0;
   height: 3px;
   background-color: var(--roofsie-base);
-}
+} */
 
 .feature-one__single:after {
   content: "";
@@ -3100,8 +3101,8 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #39454c;
-  color: #fff;
+  background-color: #f6f7f9;
+  color: var(--roofsie-black);;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   opacity: 0;
@@ -3127,11 +3128,11 @@ ul {
 
 .feature-one__top {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 
-.feature-one__icon {
+/* .feature-one__icon {
   position: relative;
   display: flex;
   background-color: var(--roofsie-base);
@@ -3139,9 +3140,9 @@ ul {
   width: 96px;
   text-align: center;
   justify-content: center;
-}
+} */
 
-.feature-one__icon:before {
+/* .feature-one__icon:before {
   content: "";
   position: absolute;
   top: -60px;
@@ -3150,13 +3151,14 @@ ul {
   border-bottom: 60px solid var(--roofsie-base);
   border-left: 69px solid transparent;
   border-right: 69px solid transparent;
-}
+} */
 
 .feature-one__icon span {
   position: relative;
   display: inline-block;
   font-size: 65px;
-  color: var(--roofsie-white);
+  /* color: var(--roofsie-white); */
+  color: var(--roofsie-base);
   -webkit-transition: all 500ms linear;
   transition: all 500ms linear;
   -webkit-transition-delay: 0.1s;
@@ -4859,8 +4861,9 @@ ul {
   position: relative;
   display: block;
   /* background-color: var(--roofsie-black); */
-  background-color: #021116;
+  background-color: #3f3f3f;
   z-index: 1;
+  border-top: solid #3fa6da 2px ;
 }
 
 .site-footer-img-1 {
@@ -11359,6 +11362,7 @@ strong{
   margin: 0px -2px;
   background-color: rgb(255, 255, 255);
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 30px 0px;
+  border-radius: 5px;
 }
 .rs-services.services-style13 .services-item .serial-number {
   position: absolute;
