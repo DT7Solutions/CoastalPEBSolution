@@ -1682,3 +1682,26 @@
       margin-right: 45px;
     }
     }
+
+
+    .funfact-box-items {
+        margin-top: 30px;
+        padding: 40px 45px;
+        
+        border: 1px solid rgba(16, 24, 40, 0.1);
+        background: #F9FAFB;
+        border-radius: 10px;
+        transition: all 0.4s ease-in-out;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .funfact-box-items h2 {
+        font-size: 45px;
+        line-height: 120%;
+        font-weight: 800;
+        color:#0073bc;
+    }
+    
+  
