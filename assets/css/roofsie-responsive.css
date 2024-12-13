@@ -1,7 +1,7 @@
 /* Medium screen  */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .feature-one__single {
-        padding: 0 17px 30px;
+        padding: 15px 17px 30px;
     }
 
     .about-one__left {
@@ -597,7 +597,7 @@
     }
 
     .feature-one__single {
-        padding: 0 17px 30px;
+        padding: 15px 17px 30px;
     }
 
     .about-one__left {
@@ -1704,4 +1704,10 @@
         color:#0073bc;
     }
     
-  
+  .applications-peb{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+ 
+  }
