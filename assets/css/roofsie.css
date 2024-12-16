@@ -2410,42 +2410,49 @@ ul {
 }
 
 .main-slider .image-layer {
-  position: absolute;
+  /* position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
-  left: 150px;
+  left: 150px; */
+  height:600px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: opacity 1500ms ease-in, -webkit-transform 7000ms ease;
+  /* -webkit-transition: opacity 1500ms ease-in, -webkit-transform 7000ms ease;
   transition: opacity 1500ms ease-in, -webkit-transform 7000ms ease;
   transition: transform 7000ms ease, opacity 1500ms ease-in;
-  transition: transform 7000ms ease, opacity 1500ms ease-in, -webkit-transform 7000ms ease;
+  transition: transform 7000ms ease, opacity 1500ms ease-in, -webkit-transform 7000ms ease; */
   z-index: 1;
 }
 
+
+@media only screen and (min-width: 300px) and (max-width: 576px) { 
+  .main-slider .image-layer {
+    height: 150px;
+  }
+}
 .main-slider .swiper-slide-active .image-layer {
-  -webkit-transform: scale(1.15);
-  transform: scale(1.15);
+  /* -webkit-transform: scale(1.15);
+  transform: scale(1.15); */
 }
 
 .main-slider .image-layer:before {
-  position: absolute;
+  /* position: absolute;
   left: -1px;
   top: 0px;
   bottom: 0;
   right: 0;
-  content: "";
-  background-image: -moz-linear-gradient(-1deg, rgb(28, 27, 31) 0%, rgba(28, 27, 31, 0) 100%);
+  content: ""; */
+  /* background-image: -moz-linear-gradient(-1deg, rgb(28, 27, 31) 0%, rgba(28, 27, 31, 0) 100%);
   background-image: -webkit-linear-gradient(-1deg, rgb(28, 27, 31) 0%, rgba(28, 27, 31, 0) 100%);
-  background-image: -ms-linear-gradient(-1deg, rgb(28, 27, 31) 0%, rgba(28, 27, 31, 0) 100%);
+  background-image: -ms-linear-gradient(-1deg, rgb(28, 27, 31) 0%, rgba(28, 27, 31, 0) 100%); */
   z-index: -1;
 }
 
-.main-slider .image-layer:after {
+/* .main-slider .image-layer:after {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -2454,7 +2461,7 @@ ul {
   content: "";
   background-color: rgba(var(--roofsie-black-rgb), .30);
   z-index: -1;
-}
+} */
 
 .main-slider__content {
   position: relative;
