@@ -2415,7 +2415,7 @@ ul {
   right: 0;
   bottom: 0;
   left: 150px; */
-  height:600px;
+  height:580px;
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -11873,4 +11873,10 @@ strong{
   right: 0;
   bottom: 0;
   z-index: 1;
+}
+.center-content{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
