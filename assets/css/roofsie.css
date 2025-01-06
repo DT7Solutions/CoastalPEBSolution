@@ -3401,9 +3401,9 @@ ul {
   display: block;
 }
 
-.about-one__points li+li {
+/* .about-one__points li+li {
   margin-left: 13px;
-}
+} */
 
 .about-one__points li .icon-box {
   position: relative;
@@ -11969,4 +11969,18 @@ strong{
   background-color: transparent;
   padding-right: 20px;
   min-width: 70px;
+}
+
+.brand-one__divider {
+  flex: 1;
+  height: 2px;
+  /* top: 13px; */
+  background-color: var(--pelocis-border-color, #DDDDDD);
+}
+.brand-one__title {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
 }
