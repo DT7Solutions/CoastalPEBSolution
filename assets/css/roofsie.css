@@ -11971,12 +11971,7 @@ strong{
   min-width: 70px;
 }
 
-.brand-one__divider {
-  flex: 1;
-  height: 2px;
-  /* top: 13px; */
-  background-color: var(--pelocis-border-color, #DDDDDD);
-}
+
 .brand-one__title {
   margin: 0;
   display: flex;
