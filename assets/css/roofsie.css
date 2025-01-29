@@ -5063,7 +5063,7 @@ ul {
 }
 
 .footer-widget__explore-list li a:hover {
-  color: var(--roofsie-white);
+  color: var( --roofsie-base);
 }
 
 .footer-widget__newsletter {
@@ -11979,4 +11979,12 @@ strong{
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+}
+
+.section-middle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
