@@ -7517,7 +7517,7 @@ ul {
   right: 0;
   content: "";
   height: 430px;
-  background-color: var(--roofsie-black);
+  /* background-color: var(--roofsie-black); */
   z-index: -1;
 }
 
@@ -9820,7 +9820,7 @@ ul {
 .service-details {
   position: relative;
   display: block;
-  padding: 120px 0 90px;
+  padding: 90px 0 90px;
 }
 
 .service-details__left {
@@ -10344,7 +10344,7 @@ ul {
 .contact-details__number-1 {
   position: relative;
   display: block;
-  color: var(--roofsie-gray);
+  color: #141416;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -11143,10 +11143,13 @@ strong{
 }
 
 .bg-theme-color{
-  background-color: #3fa6da;
-  border-top-right-radius: 25px;
-  border-bottom-left-radius: 25px;
-  padding: 10px 20px;
+  background-color: #f3f4f6;
+  /* border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px; */
+  border-radius: 8px;
+  border:1px solid transparent;
+  padding: 5px 20px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px -1px rgba(0, 0, 0, .1);
 
 }
 
