@@ -4433,13 +4433,16 @@ ul {
 .testimonial-one__single {
   position: relative;
   display: block;
-  border: 1px solid #ede8e4;
+  /* border: 1px solid #ede8e4; */
+  border:1px solid #e0e4e8;
   border-radius: var(--roofsie-bdr-radius);
+  /* --tw-bg-opacity: 1;
+  background-color: rgb(245 245 245 / var(--tw-bg-opacity)); */
   background-color: rgb(255, 255, 255);
   padding: 50px 50px 45px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
-  min-height: 270px;
+  min-height: 450px;
 }
 
 .testimonial-one__single:hover {
@@ -4479,7 +4482,7 @@ ul {
   width: 85px;
   height: 85px;
   border-radius: 50%;
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  /* background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); */
 }
 
 .testimonial-one__client-img {
@@ -4490,17 +4493,18 @@ ul {
 
 .testimonial-one__client-img img {
   width: 100% !important;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 .testimonial-one__client-details {
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 .testimonial-one__client-name {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 800;
   line-height: 30px;
+  color: #0094d9;
 }
 
 .testimonial-one__client-sub-title {
@@ -4511,6 +4515,7 @@ ul {
 
 .testimonial-one__text {
   padding-top: 20px;
+  text-align: justify;
 }
 
 .testimonial-one__rating {
@@ -10654,7 +10659,7 @@ ul {
 }
 
 .testimonials-page .container {
-  max-width: 1080px;
+  max-width: 1200px;
 }
 
 .testimonials-page .row {
@@ -11394,6 +11399,7 @@ strong{
   padding: 40px 50px 46px;
   margin: 0px -2px;
   background-color: rgb(255, 255, 255);
+  min-height:300px;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 30px 0px;
   border-radius: 5px;
 }
@@ -11991,3 +11997,45 @@ strong{
   justify-content: center;
 
 }
+
+.about-peb{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+/* mission vission values */
+/* .section-wrap {
+  position: relative;
+  z-index: 10;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+@media screen and (max-width: 1399px) {
+  
+
+.wraper {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+}
+.wraper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+}
+.gap-4 {
+  gap: 1rem;
+}
+.grid-cols-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+.grid {
+  display: grid;
+}
+.col-span-6 {
+  grid-column: span 6 / span 6;
+}
+.bg-\[\#f5f5f5\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 245 / var(--tw-bg-opacity));
+} */
