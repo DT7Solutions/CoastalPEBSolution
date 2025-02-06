@@ -4438,7 +4438,8 @@ ul {
   border-radius: var(--roofsie-bdr-radius);
   /* --tw-bg-opacity: 1;
   background-color: rgb(245 245 245 / var(--tw-bg-opacity)); */
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
+  background-color: #f2f5f9;
   padding: 50px 50px 45px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -10655,7 +10656,7 @@ ul {
 .testimonials-page {
   position: relative;
   display: block;
-  padding: 120px 0 90px;
+  padding: 50px 0 50px;
 }
 
 .testimonials-page .container {
