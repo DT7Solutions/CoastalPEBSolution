@@ -324,6 +324,28 @@
                     <div class="col-xl-6 mb-lg-0 mb-5">
                         <div class="contact-page__form">
                             <form id="contactForm" class="comment-one__form contact-form-validated" method="post">
+
+                                <div class="row">
+                                    <div class="col-xl-12">
+                                        <div class="comment-form__input-box" style="margin-bottom: 5px !important;">
+                                            <select id="inquiry" name="inquiry" required>
+                                                <option value="" disabled selected>Select Inquiry Type</option>
+                                                <option value="feedback">Feedback/Complaint</option>
+                                                <option value="support">Project Inquiry</option>
+                                                <option value="supplier">Supplier</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-xl-12">
+                                        <div class="comment-form__input-box">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                
                                 <div class="row">
                                     <div class="col-xl-6">
                                         <div class="comment-form__input-box">
@@ -370,6 +392,7 @@
                             </form>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </section>
@@ -590,6 +613,11 @@
        
         function sendEmail() {
             // Input validations
+            if (document.getElementById("inquiry").value == "") {
+                alert("Please select an inquiry type");
+                document.getElementById("inquiry").focus();
+                return false;
+            }
             if (document.getElementById("firstname").value == "") {
                 alert("Please enter your first name");
                 document.getElementById("firstname").focus();
@@ -623,10 +651,11 @@
     
             // Collecting form data
             const params = {
+                inquiry: document.getElementById("inquiry").value,
                 firstname: document.getElementById("firstname").value,
                 lastname: document.getElementById("lastname").value,
                 email: document.getElementById("email").value,
-                phonenumber: document.getElementById("telephone").value,
+                telephone: document.getElementById("telephone").value,
                 subject: document.getElementById("subject").value,
                 message: document.getElementById("message").value,
             };

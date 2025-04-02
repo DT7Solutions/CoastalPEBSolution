@@ -12044,3 +12044,21 @@ strong{
 .MEZZANINES-img {
   margin-right:10px!important;
 }
+
+
+.comment-form__input-box select[name="inquiry"] {
+  height: 60px;
+  width: 100%;
+  border: none;
+  background-color: var(--roofsie-primary);
+  padding-left: 30px;
+  padding-right: 30px;
+  outline: none;
+  font-size: 14px;
+  color: var(--roofsie-gray);
+  display: block;
+  border-radius: var(--roofsie-bdr-radius);
+  font-weight: 500;
+  appearance: none; 
+  cursor: pointer;
+}
