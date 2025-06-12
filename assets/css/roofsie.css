@@ -3903,6 +3903,9 @@ ul {
   -o-transition: .5s;
   transition: .5s;
   z-index: -1;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0), 
+              0 0 12px 2px rgba(0, 115, 188, 0.4), 
+              0 0 24px 4px rgba(0, 115, 188, 0.6); 
 }
 
 .brand-one__single:hover:before {
