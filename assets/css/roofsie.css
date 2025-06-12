@@ -12004,6 +12004,18 @@ strong{
   flex-direction: row;
   flex-wrap:wrap;
 }
+
+.clients {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+.brand-one__single {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* mission vission values */
 /* .section-wrap {
   position: relative;
