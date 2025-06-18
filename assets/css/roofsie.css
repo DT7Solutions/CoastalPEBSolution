@@ -244,7 +244,7 @@ ul {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   border-radius: 5px;
-  padding: 15px 20px 15px;
+  padding: 10px  15px;
   transition: all 0.5s linear;
   overflow: hidden;
   z-index: 1;
@@ -4848,7 +4848,7 @@ ul {
 }
 
 .cta-one__btn {
-  background-color: var(--roofsie-black);
+  background-color: #f48120;
 }
 
 .cta-one__btn i {
@@ -7845,7 +7845,7 @@ ul {
 }
 
 .team-one__name {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 800;
   line-height: 26px;
 }
@@ -10578,10 +10578,10 @@ ul {
 }
 
 .team-experience__title {
-  font-size: 36px;
+  font-size: 26px;
   font-weight: 800;
   line-height: 46px;
-  margin-bottom: 31px;
+  margin-bottom: 11px;
 }
 
 .team-experience__single {
@@ -12075,3 +12075,36 @@ strong{
   appearance: none; 
   cursor: pointer;
 }
+
+.sub-text-head{
+  font-size:22px;
+  color:#000;
+}
+.li-style{
+  font-size:18px;
+  font-weight:400!important;
+  color: #6c6b6f!important;
+}
+
+
+
+/* 
+.page-heading::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 25px;
+    width: 100px;
+    height: 2px;
+    background: #3fa6da;
+}
+.page-heading::after {
+    content: "";
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 25px;
+    width: 100px;
+    height: 2px;
+    background: #3fa6da;
+} */
