@@ -12085,7 +12085,12 @@ strong{
   font-weight:400!important;
   color: #6c6b6f!important;
 }
-
+.turnkey-project{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
 
 /* 
