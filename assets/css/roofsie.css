@@ -2429,7 +2429,11 @@ ul {
   z-index: 1;
 }
 
-
+@media only screen and (min-width: 1600px) and (max-width: 1900px) { 
+  .main-slider .image-layer {
+    height: 700px!important;
+  }
+}
 @media only screen and (min-width: 300px) and (max-width: 576px) { 
   .main-slider .image-layer {
     height: 150px;
