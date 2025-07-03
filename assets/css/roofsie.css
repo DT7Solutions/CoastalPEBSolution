@@ -669,6 +669,15 @@ ul {
   float: left;
 }
 
+@media (max-width: 576px) {
+  .main-menu__left {
+  float:none!important;
+  justify-content: space-between;
+
+ 
+}
+}
+
 .main-menu__main-menu-box {
   display: block;
 }
@@ -12123,3 +12132,177 @@ strong{
     height: 2px;
     background: #3fa6da;
 } */
+
+
+/* slider */
+.xb-brand-wrap {
+  margin-left: 186px;
+  margin-right: 164px;
+  padding-bottom: 55px;
+  position: relative; }
+  @media only screen and (min-width: 1200px) and (max-width: 1500px) {
+    .xb-brand-wrap {
+      margin-left: 120px;
+      margin-right: 120px; } }
+  @media (max-width: 1199px) {
+    .xb-brand-wrap {
+      margin-left: 100px;
+      margin-right: 100px; } }
+  @media (max-width: 991px) {
+    .xb-brand-wrap {
+      margin-left: 50px;
+      margin-right: 50px; } }
+  @media (max-width: 767px) {
+    .xb-brand-wrap {
+      margin-left: 10px;
+      margin-right: 10px; } }
+  .xb-brand-wrap::before, .xb-brand-wrap::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -186px;
+    height: 100%;
+    width: 413px;
+    z-index: 1;
+    filter: blur(50px);
+    background: #f2f2f2; }
+    @media (max-width: 1199px) {
+      .xb-brand-wrap::before, .xb-brand-wrap::after {
+        width: 265px; } }
+    @media (max-width: 767px) {
+      .xb-brand-wrap::before, .xb-brand-wrap::after {
+        width: 230px; } }
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+      .xb-brand-wrap::before, .xb-brand-wrap::after {
+        width: 265px; } }
+  .xb-brand-wrap::after {
+    left: auto;
+    right: -164px; }
+    .xb-brand-wrapper {
+  padding-bottom: 125px; }
+  @media (max-width: 991px) {
+    .xb-brand-wrapper {
+      padding-bottom: 108px; } }
+  @media (max-width: 767px) {
+    .xb-brand-wrapper {
+      padding-bottom: 110px; } }
+
+  .o-hidden {
+  overflow: hidden; }
+
+  .xb-brand-item {
+  display: inline-flex; }
+  .xb-brand-item:not(:last-child) {
+    margin-bottom: 40px; }
+    @media (max-width: 991px) {
+      .xb-brand-item:not(:last-child) {
+        margin-bottom: 10px; } }
+
+.xb-brand-logo a {
+  z-index: 1!important;
+  width: 248px!important;
+  height: 78px!important;
+  position: relative!important;
+  display: inline-flex!important;
+  align-items: center!important;
+  justify-content: center!important; }
+  @media (max-width: 991px) {
+    .xb-brand-logo a {
+      width: 148px; } }
+  @media (max-width: 991px) {
+    .xb-brand-logo a img {
+      width: 50%; } }
+  .xb-brand-logo a span {
+    position: absolute!important;
+    left: 50%!important;
+    top: 50%!important;
+    z-index: -1!important;
+    transform: translate(-50%, -50%)!important; }
+    @media (max-width: 991px) {
+      .xb-brand-logo a span svg {
+        width: 148px; } }
+
+.marquee-first {
+  -webkit-animation: marquee 30s linear infinite;
+  animation: marquee 30s linear infinite; }
+
+.marquee-2 {
+  -webkit-animation: marquee2 30s linear infinite;
+  animation: marquee2 30s linear infinite; }
+
+@-webkit-keyframes marquee {
+  from {
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%); }
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+@keyframes marquee {
+  from {
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%); }
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+@-webkit-keyframes marquee2 {
+  from {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  to {
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%); } }
+@keyframes marquee2 {
+  from {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  to {
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%); } }
+
+    .ul_li, .ul_li_right, .ul_li_center, .ul_li_between {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.ul_li > li, .ul_li_right > li, .ul_li_center > li, .ul_li_between > li {
+  float: left;
+  list-style: none;
+  display: inline-block; }
+
+.ul_li {
+  justify-content: flex-start; }
+
+.ul_li_center {
+  justify-content: center; }
+
+.ul_li_right {
+  justify-content: flex-end; }
+
+.ul_li_between {
+  justify-content: space-between; }
+
+.ul_li_block {
+  margin: 0px;
+  padding: 0px;
+  display: block; }
+
+.ul_li_block > li {
+  display: block;
+  list-style: none; }
+  .normal{
+    max-width: 100%!important;
+    height:60px!important;
+    
+  }
+
+  .xb-brand-logo a {
+    width: 148px;
+}
+.xb-brand-logo {
+  background-color: #fff;
+
+}
+
+
