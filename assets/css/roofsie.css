@@ -11936,6 +11936,13 @@ strong{
 .box-list-numbers .item-number {
   width: 100%!important;
 }
+.page-header {
+  padding:50px 0 50px;
+}
+.page-header__inner h2 {
+  font-size: 20px;
+  line-height: 1.2;
+}
 }
 .box-list-numbers .item-number {
   display: flex;
