@@ -1730,5 +1730,9 @@
     border-radius:5px;
 
   }
+  .site-footer__bottom-text a:hover,.site-footer__bottom-text a:focus,.site-footer__bottom-text a:visited {
+   color:#3fa6da!important;
+}
+
 
 
