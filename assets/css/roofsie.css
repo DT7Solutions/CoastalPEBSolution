@@ -11233,6 +11233,7 @@ strong{
   position: relative;
   padding-right: 5px;
   padding-left: 5px;
+  padding-bottom:10px;
   text-align: center;
   float: left;
 }
@@ -11942,6 +11943,46 @@ strong{
 .page-header__inner h2 {
   font-size: 20px;
   line-height: 1.2;
+}
+.about-two {
+  padding:60px 0 60px;
+}
+.about-three{
+  padding:60px 0 60px;
+
+}
+.service-details__points-box{
+  padding-top:0px;
+  padding-bottom:20px;
+}
+.project-three{
+  padding:60px 0 60px;
+
+}
+.about-three__right{
+  margin-top:10px!important;
+}
+.team-details {
+  padding:10px 0 0;
+}
+.service-details__benefits{
+  margin-top:5px;
+}
+.service-details__benefits-points {
+  padding-top: 0px;
+}
+.service-details__benefits-single{
+  margin-bottom:0px;
+}
+.service-details__benefits-content {
+  margin-top:0px;
+}
+.team-experience{
+  padding:60px 0 60px;
+
+}
+.service-details{
+  padding:60px 0 60px;
 }
 }
 .box-list-numbers .item-number {

@@ -1722,3 +1722,13 @@
     align-items: center;
  
   }
+
+  .project-three .text-black{
+    color:#1c1b1f;
+  }
+  .project-details__tab-box-story-img-two img{
+    border-radius:5px;
+
+  }
+
+
