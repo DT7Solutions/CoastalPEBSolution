@@ -320,6 +320,9 @@ ul {
   top: -4px;
   left: -40px;
 }
+.section-title-shape-1.mob{
+  left:-20px!important;
+}
 
 .section-title-shape-1 img {
   width: auto;
