@@ -12355,4 +12355,16 @@ strong{
 
 }
 
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url("data:image/svg+xml;utf8,<svg fill='black' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>") no-repeat right 10px center;
+  background-color: white;
+  padding-right: 30px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 35px;
+}
+
 
