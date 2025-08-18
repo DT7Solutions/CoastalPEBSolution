@@ -11313,6 +11313,7 @@ strong{
   justify-content: center;
   height: 15px;
   width: 15px;
+  min-width: 15px;
   background-color: var(--roofsie-base);
   border-radius: 50%;
   color:  var(--roofsie-primary);
