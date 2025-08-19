@@ -11941,6 +11941,14 @@ strong{
 .box-list-numbers .item-number {
   width: 100%!important;
 }
+.text-box-two p{
+  padding-left:0px;
+
+}
+.about-one__points{
+  padding-left: 0px;
+}
+
 .page-header {
   padding:50px 0 50px;
 }
@@ -12370,4 +12378,11 @@ select {
   height: 35px;
 }
 
+/* .gap-right{
+  padding-left:10px;
+} */
+.text-box-two p{
+  padding-left:10px;
+
+}
 
