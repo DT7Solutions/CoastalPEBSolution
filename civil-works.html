@@ -247,9 +247,62 @@
                                     <a href="tel:+91 84998 99999"> +91 84998 99999</a>
                                 </div>
                             </div>
-                            <div class="service-details__download mb-5">
-                                <a href="contact.html" class="thm-btn service-details__btn"> <i class="fa fa-arrow-right"></i> Get a free quote</a>
-                            </div>
+                              <div class="service-details__download">
+  <a href="javascript:void(0);" 
+     class="thm-btn service-details__btn mb-5" 
+     data-bs-toggle="modal" 
+     data-bs-target="#quoteModal">
+     <i class="fa fa-arrow-right"></i> Get a free quote
+  </a>
+</div>
+   
+           <div class="modal fade"  id="quoteModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Get a Free Quote</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Example form -->
+        
+      <form id="quoteForm">
+  <div class="mb-3">
+    <input type="text" class="form-control" name="user_name" placeholder="Your Name" required>
+  </div>
+
+  <div class="mb-3">
+    <input type="email" class="form-control" name="user_email" placeholder="Your Email" required>
+  </div>
+
+  <div class="mb-3">
+    <input type="text" class="form-control" name="company_name" placeholder="Your Company Name" required>
+  </div>
+
+  <div class="mb-3">
+    <select id="products-services" name="service_type" class="form-control" required>
+      <option value="" disabled selected>Select type of products & services</option>
+      <option value="PEB">PEB</option>
+      <option value="Steel Structure">Steel Structure</option>
+      <option value="Solar Structure">Solar Structure</option>
+      <option value="Seed Dryers & Conveyor Systems">Seed Dryers & Conveyor Systems</option>
+      <option value="Building Components">Building Components</option>
+      <option value="Civil Works">Civil Works</option>
+    </select>
+  </div>
+
+  <div class="mb-3">
+    <textarea class="form-control" name="message" placeholder="Your Message" rows="4" required></textarea>
+  </div>
+
+  <button type="submit" class="btn thm-btn w-100">Submit</button>
+</form>
+
+
+      </div>
+    </div>
+  </div>
+</div>
                         </div>
                     </div>
                     <div class="col-xl-8 col-lg-7 ">
@@ -565,7 +618,16 @@
     <script src="assets/vendors/circleType/jquery.lettering.min.js"></script>
 
 
+   
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
 
+        (function () {
+            emailjs.init("wRPE21SpUBhUxwat8"); // Replace with your actual User ID
+        })();
+</script>
 
     <!-- template js -->
     <script src="assets/js/roofsie.js"></script>

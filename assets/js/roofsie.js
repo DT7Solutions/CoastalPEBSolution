@@ -890,6 +890,34 @@
 
   });
 
+
+
+
+
+  document.getElementById("quoteForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    emailjs.sendForm("service_igg65af", "template_szy61ep", this)
+      .then(function(response) {
+        alert("✅ Your quote request has been sent successfully!");
+
+        // Reset the form fields
+        document.getElementById("quoteForm").reset();
+
+        // Close the modal (Bootstrap 5)
+        var modalEl = document.getElementById("quoteModal");
+        var modal = bootstrap.Modal.getInstance(modalEl);
+        modal.hide();
+
+      }, function(error) {
+        alert("❌ Failed to send. Please try again.");
+        console.log(error);
+      });
+  });
+
+
+
+  
   // window scroll event
 
   $(window).on("scroll", function () {
