@@ -11752,11 +11752,12 @@ strong{
  
 }
 
+
 }
 
 .categories-two__icon {
   background-color: #0094d9; /* Dark blue */
-  padding: 20px; /* Optional: Adjust padding as needed */
+  padding: 20px; 
   display: inline-block; /* To contain the SVG properly */
   border-radius: 10px; /* Optional: Add rounded corners */
 }
@@ -12436,6 +12437,8 @@ select {
         font-size: 12px;
         padding: 2px 6px;
     }
+    
+
 }
 
 
