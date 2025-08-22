@@ -12441,7 +12441,9 @@ select {
 .gap-top{
   padding-top:0px!important;
 }
-
+.categories-two__single .categories-two__icon{
+  padding:0px!important;
+}
 }
 
 .gap-top{
