@@ -4043,7 +4043,7 @@ ul {
   left: 0;
   right: 0;
   content: "";
-  background-color: rgba(var(--roofsie-base-rgb), .90);
+  background-color: rgba(0, 138, 208, 0.6);
   border-radius: var(--roofsie-bdr-radius);
   -webkit-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
   -ms-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
@@ -10260,7 +10260,7 @@ ul {
   width: 15px;
   background-color: var(--roofsie-base);
   border-radius: 50%;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
 }
 
 .service-details__benefits-points li .icon i {
@@ -12406,6 +12406,17 @@ select {
 .gallery-page__img:hover .product-image__overlay-top-left {
     opacity: 0;   /* show on hover */
 }
+.project-one__img:hover .product-image__overlay-top-left {
+    opacity: 0;   /* show on hover */
+}
+
+.project-one__img {
+    position: relative; /* needed for absolute child positioning */
+    display: inline-block;
+}
+.project-one__img:hover .project-one__content {
+    opacity: 0;
+}
 
 .product-image__overlay-top-left .label {
     padding: 0 8px;
@@ -12426,4 +12437,5 @@ select {
         padding: 2px 6px;
     }
 }
+
 
