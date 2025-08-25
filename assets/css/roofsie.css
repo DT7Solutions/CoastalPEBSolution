@@ -12488,6 +12488,13 @@ select {
     color: #fff;
     box-shadow: 0 1px 2px #0003;
 }
+
+@media only screen and (min-width: 1000px) and (max-width: 1450px) {
+.product-image__overlay-top-left .label {
+  font-size:10px
+}
+}
+
 /* .products-image__overlay-top-left {
   position: absolute;
   top: 10px; 
